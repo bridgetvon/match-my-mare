@@ -1,0 +1,28 @@
+.navbar-div{
+    padding: 5px;
+}
+
+.navbar-div h2{
+    font-size: 30px;
+    color: #000000;
+}
+
+.drop-btn{
+    margin-top: 3px;
+    background-color: #fff;
+    color: #29335c;
+    border: none;
+    margin-left: 30px;
+}
+
+#id {
+    font-weight: bolder;
+}
+
+#dropdown {
+    margin-top: 5px;
+}
+.navbarNav{
+    padding: 20px;
+    border-bottom: 5px white;
+}
