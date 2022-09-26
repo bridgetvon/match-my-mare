@@ -44,10 +44,10 @@ align-items: center
 `
 
 export const HeroText = styled.h1`
-color: #000000;
+color: #fff;
 font-size: 48px;
 text-align: center;
-color: #fff;
+color: #000000;
 
 @media screen and (max-width: 760px) {
     font-size: 40px;

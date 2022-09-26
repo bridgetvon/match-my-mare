@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Sidebar from '../components/Sidebar';
 import Nav from '../components/Nav'
 import Hero from '../components/Hero';
+import Login from '../components/Login';
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false)
@@ -18,6 +19,7 @@ function Home() {
           {isOpen ? < Sidebar toggle={toggle} /> : ''}
           <Routes>
             <Route path="/" element={<Hero/>} />
+            {/* <Route path="/login" element={<Login />} /> */}
           </Routes>
       </main>
     </div>
